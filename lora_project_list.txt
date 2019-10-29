@@ -1,0 +1,5 @@
+LoRa Projects
+
+1. Reindeer tracking in Finland, January 2018, FRHA, Digita, Actility, Mapitare Oy, Porokello
+
+https://www.rfidjournal.com/articles/view?17106/
