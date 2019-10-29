@@ -3,3 +3,13 @@ LoRa Projects
 1. Reindeer tracking in Finland, January 2018, FRHA, Digita, Actility, Mapitare Oy, Porokello
 
 https://www.rfidjournal.com/articles/view?17106/
+
+2. Cattle tracking, bike sniffer, March 2019, Spectrum IEEE, LoRa's bid to rule the IoT
+
+https://www.sodaq.com
+https://www.lacuna.space
+
+3. Cattle tracking with GPS ear tags
+
+https://www.moovement.com.au
+
