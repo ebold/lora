@@ -13,8 +13,17 @@ https://www.lacuna.space
 
 https://www.moovement.com.au
 
-Wildlife observation projects
-
-1. ICARUS (International Cooperation for animal Research Using Space)
+4. ICARUS (International Cooperation for Animal Research Using Space)
 
 http://icarusinitiative.org
+
+5. DIY
+
+LORA + GPS + ESP8266
+https://iotdesignpro.com/projects/how-to-make-lora-based-gps-tracker-using-esp8266
+
+LORA + STM32
+https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html
+
+LORA + GPS + LR1110 (Semtech)
+https://www.seeedstudio.com/Wio-WM1110-Module-LR1110-and-nRF52840-p-5676.html
