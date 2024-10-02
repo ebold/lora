@@ -31,8 +31,8 @@ https://www.seeedstudio.com/Wio-WM1110-Module-LR1110-and-nRF52840-p-5676.html
 6. GPS tracker
 
 DIY (modular)
-Base module (M1): Wio-E5 mini Dev Board (STM32WLE5JC, ARM Cortex-M4 and SX126x embedded, LoRaWAN on EU868 & US915), 21,90$ USD, seedstudio
-GPS module (M2): u-blox Neo-6M (GPS TTL receiver incl. antenne), 6,90€, berrybase
+Base module (M1): Wio-E5 mini Dev Board (STM32WLE5JC, ARM Cortex-M4 and SX126x embedded, LoRaWAN on EU868 & US915), 21,90$ USD, https://www.seeedstudio.com/LoRa-E5-mini-STM32WLE5JC-p-4869.html
+GPS module (M2): u-blox Neo-6M (GPS TTL receiver incl. antenne), 6,90€, https://www.berrybase.de/u-blox-neo-6m-gps-ttl-empfaenger-inkl.-antenne
 
 Commercial
 ELV LoRaWAN® GPS Tracker ELV-LW-GPS1, 49,90€, https://de.elv.com/p/elv-lorawan-gps-tracker-elv-lw-gps1-P157519/
