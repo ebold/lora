@@ -36,4 +36,4 @@ GPS module (M2): u-blox Neo-6M (GPS TTL receiver incl. antenne), 6,90€, https:
 
 Commercial
 ELV LoRaWAN® GPS Tracker ELV-LW-GPS1, 49,90€, https://de.elv.com/p/elv-lorawan-gps-tracker-elv-lw-gps1-P157519/
-Dragino TrackerD, 58,91€, https://www.antratek.de/trackerd-lorawan-tracker
+Dragino TrackerD, 35,50€, https://exp-tech.de/products/dragino-trackerd-lorawan-tracker
