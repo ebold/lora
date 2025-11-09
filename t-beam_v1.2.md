@@ -25,10 +25,11 @@ Steps, mainly from [3] and [4]:
   * Start the VSCode: ```$ code .```
     * VSCode will open the **platform.ini** file (project configuration file)
     * Modify following settings:
-      * Enable the **T_BEAM_SX1262** environment (disable **T_BEAM_BPF**)
-      * Enable the **examples/TBeamFactory** example (disable **examples/BPFFactory**)
-      * Add **framework = espidf** under the **[env:T_BEAM_SX1262]** config item (PlatformIO will download the espressif32@6.7.0 if it's specified under [env])
-     * Build the example => compilation fails indicating to missing "Arduino.h" header file :x:
+      * Under [platformio] enable "default_envs = T_BEAM_SX1262" and disable **T_BEAM_BPF**
+      * Enable the **src_dir = examples/TBeamFactory** example and disable **examples/BPFFactory**
+      * Change **framework = espidf** in [env]
+      * Under [env:T_BEAM_1262] change **board = esp32dev** to **board = ttgo-t-beam**
+     * Build the example (CTL+ALT+B) => compilation fails indicating to missing "Arduino.h" header file :x:
 
 ## Sources
 [1] [Lilygo web site](https://www.lilygo.cc/products/t-beam-softrf?variant=43170155692213)
