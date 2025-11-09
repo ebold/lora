@@ -16,7 +16,7 @@ Features:
 
 ## 1. Getting started
 
-**Prerequsities**: 
+**Prerequsities**:
   * Linux host with PlatformIO in VSCode
 
 Steps, mainly from [3] and [4]:
@@ -25,10 +25,10 @@ Steps, mainly from [3] and [4]:
   * Start the VSCode: ```$ code .```
     * VSCode will open the **platform.ini** file (project configuration file)
     * Modify following settings:
-      * Enable the **T3_S3_V1_2_SX1262** environment (disable **T_BEAM_BPF**)
-      * Enable the **examples/T3S3Factory** example (disable **examples/BPFFactory**)
-      * Add **framework = espidf** under the **[env:T3_S3_V1_2_SX1262]** config item (PlatformIO will download the espressif32@6.7.0 if it's specified under [env])
-     * Build the example => compilation fails indicating to SD.h dependency :x:
+      * Enable the **T_BEAM_SX1262** environment (disable **T_BEAM_BPF**)
+      * Enable the **examples/TBeamFactory** example (disable **examples/BPFFactory**)
+      * Add **framework = espidf** under the **[env:T_BEAM_SX1262]** config item (PlatformIO will download the espressif32@6.7.0 if it's specified under [env])
+     * Build the example => compilation fails indicating to missing "Arduino.h" header file :x:
 
 ## Sources
 [1] [Lilygo web site](https://www.lilygo.cc/products/t-beam-softrf?variant=43170155692213)
