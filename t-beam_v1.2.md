@@ -25,10 +25,11 @@ Steps, mainly from [3] and [4]:
   * Start the VSCode: ```$ code .```
     * VSCode will open the **platform.ini** file (project configuration file)
     * Modify following settings:
-      * Enable the **T_BEAM_SX1262** environment (disable **T_BEAM_BPF**)
-      * Enable the **examples/TBeamFactory** example (disable **examples/BPFFactory**)
-      * Add **framework = espidf** under the **[env:T_BEAM_SX1262]** config item (PlatformIO will download the espressif32@6.7.0 if it's specified under [env])
-     * (Solved) Build the example (CTL+ALT+B) => compilation fails indicating to missing "Arduino.h" header file -> look at issue [#278](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/issues/278)
+      * In [platformio] enable "default_envs = T_BEAM_SX1262" and disable **T_BEAM_BPF**
+      * Enable the **src_dir = examples/TBeamFactory** example and disable **examples/BPFFactory**
+      * In [env:T_BEAM_1262] change **board = esp32dev** to **board = ttgo-t-beam**
+      * :exclamation:  In [env] do not modify **framework = arduino** -> refer to issue [#278](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/issues/278)
+     * Build the example (CTL+ALT+B)
 
 ## 2. Projects
 
