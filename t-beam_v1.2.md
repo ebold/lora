@@ -28,7 +28,16 @@ Steps, mainly from [3] and [4]:
       * Enable the **T_BEAM_SX1262** environment (disable **T_BEAM_BPF**)
       * Enable the **examples/TBeamFactory** example (disable **examples/BPFFactory**)
       * Add **framework = espidf** under the **[env:T_BEAM_SX1262]** config item (PlatformIO will download the espressif32@6.7.0 if it's specified under [env])
-     * Build the example => compilation fails indicating to missing "Arduino.h" header file :x:
+     * (Solved) Build the example (CTL+ALT+B) => compilation fails indicating to missing "Arduino.h" header file -> look at issue [#278](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/issues/278)
+
+## 2. Projects
+
+| Firmware | Framework | What is done | How is it tested | Status |
+| --- | --- | --- | --- | --- |
+| [LilyGo](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series) | arduino | modify 'platform.ini' | run 'TBeamFactory' example, [#2](https://github.com/ebold/lora/issues/2) | pass ✅ |
+| [esp-idf](https://github.com/espressif/esp-idf) | esp-idf | - | run 'hello world' example, [#6](https://github.com/ebold/lora/issues/6) | pass ✅ |
+| [Zephyr](https://github.com/zephyrproject-rtos/zephyr) | west | - | run 'blinky' example, [#8](https://github.com/ebold/lora/issues/8) | fail :x: |
+| [Meshtastic](https://github.com/meshtastic/firmware) | platformio | modify 'variants/esp32/tbeam/variant.h' | connect via Bluetooth, connect to MeshHessen, [#10](https://github.com/ebold/lora/issues/10) | pass ✅ |
 
 ## Sources
 [1] [Lilygo web site](https://www.lilygo.cc/products/t-beam-softrf?variant=43170155692213)
