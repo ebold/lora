@@ -33,12 +33,12 @@ Steps, mainly from [3] and [4]:
 
 ## 2. Projects
 
-| Firmware | Framework | What is done | How is it tested | Status |
-| --- | --- | --- | --- | --- |
-| [LilyGo](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series) | arduino | modify 'platform.ini' | run 'TBeamFactory' example, [#2](https://github.com/ebold/lora/issues/2) | pass ✅ |
-| [esp-idf](https://github.com/espressif/esp-idf) | esp-idf | - | run 'hello world' example, [#6](https://github.com/ebold/lora/issues/6) | pass ✅ |
-| [Zephyr](https://github.com/zephyrproject-rtos/zephyr) | platformio | - | run 'blinky' example, [#8](https://github.com/ebold/lora/issues/8) | fail :x: |
-| [Meshtastic](https://github.com/meshtastic/firmware) | arduino + platformio | modify 'variants/esp32/tbeam/variant.h' | connect via Bluetooth, connect to MeshHessen, [#10](https://github.com/ebold/lora/issues/10) | pass ✅ |
+| Firmware | Framework | What is done | How is it tested | Local repo in $PRV_PRJ, branch | Status |
+| --- | --- | --- | --- | --- | --- |
+| [LilyGo](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series) | arduino | modify 'platform.ini' | run 'TBeamFactory' example, [#2](https://github.com/ebold/lora/issues/2) | github/LilyGo-LoRa-Series, t-beam-v1.2 | pass ✅ |
+| [esp-idf](https://github.com/espressif/esp-idf) | esp-idf | - | run 'hello world' example, [#6](https://github.com/ebold/lora/issues/6) | github/esp-idf, master | pass ✅ |
+| [Zephyr](https://github.com/zephyrproject-rtos/zephyr) | platformio | - | run 'blinky' example, [#8](https://github.com/ebold/lora/issues/8) | zephyrproject/zephyr, t-beam-v1.2 | fail :x: |
+| [Meshtastic](https://github.com/meshtastic/firmware) | arduino + platformio | modify 'variants/esp32/tbeam/variant.h' | connect via Bluetooth, connect to MeshHessen, [#10](https://github.com/ebold/lora/issues/10) | github/meshtastic/firmware, t-beam-v1.2 | pass ✅ |
 
 ## Sources
 [1] [Lilygo web site](https://www.lilygo.cc/products/t-beam-softrf?variant=43170155692213)
